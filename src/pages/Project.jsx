@@ -18,16 +18,16 @@ const projectData = {
     images: {
       hero: {
         alt: 'Lahori VIP Burger Main View',
-        src: 'https://i.postimg.cc/02KDP3H3/863shots-so.png'
+        src: '/P1-1.png'
       },
       gallery: [
         {
           alt: 'Branch Selection',
-          src: 'https://i.postimg.cc/63jt3BQr/485shots-so.png'
+          src: '/P1-2.png'
         },
         {
           alt: 'Mobile view Menu',
-          src: 'https://i.postimg.cc/QCJCS2Nh/494shots-so.png'
+          src: '/P1-3.png'
         }
       ],
     },
@@ -62,16 +62,16 @@ const projectData = {
     images: {
       hero: {
         alt: 'Hammad Khalil Portfolio Main View',
-        src: 'https://i.postimg.cc/9M1tw7Gv/571shots-so.png'
+        src: '/P2-1.png'
       },
       gallery: [
         {
           alt: 'About Portfolio Showcase',
-          src: 'https://i.postimg.cc/sDfHm5wV/171shots-so.png' 
+          src: '/P2-2.png' 
         },
         {
           alt: 'Responsive Design View',
-          src: 'https://i.postimg.cc/rmCqL5BP/402shots-so.png' 
+          src: '/P2-3.png' 
         }
       ],
     },
@@ -106,16 +106,16 @@ const projectData = {
     images: {
       hero: {
         alt: 'Usman Wajid Portfolio Main View',
-        src: 'https://i.postimg.cc/3R6Nqr7N/782shots-so.png'
+        src: '/P3-1.png'
       },
       gallery: [
         {
           alt: 'Skill Set Section',
-          src: 'https://i.postimg.cc/Gm2NLvyV/254shots-so.png' 
+          src: '/P3-2.png' 
         },
         {
           alt: 'Backend & Performance Optimization mobile view',
-          src: 'https://i.postimg.cc/TPN451nt/496shots-so.png' 
+          src: '/P3-3.png' 
         }
       ],
     },
