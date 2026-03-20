@@ -18,16 +18,16 @@ const projectData = {
     images: {
       hero: {
         alt: 'Lahori VIP Burger Main View',
-        src: '/P1-1.png'
+        src: '/P1-1.webp'
       },
       gallery: [
         {
           alt: 'Branch Selection',
-          src: '/P1-2.png'
+          src: '/P1-2.webp'
         },
         {
           alt: 'Mobile view Menu',
-          src: '/P1-3.png'
+          src: '/P1-3.webp'
         }
       ],
     },
@@ -62,16 +62,16 @@ const projectData = {
     images: {
       hero: {
         alt: 'Hammad Khalil Portfolio Main View',
-        src: '/P2-1.png'
+        src: '/P2-1.webp'
       },
       gallery: [
         {
           alt: 'About Portfolio Showcase',
-          src: '/P2-2.png' 
+          src: '/P2-2.webp' 
         },
         {
           alt: 'Responsive Design View',
-          src: '/P2-3.png' 
+          src: '/P2-3.webp' 
         }
       ],
     },
@@ -106,16 +106,16 @@ const projectData = {
     images: {
       hero: {
         alt: 'Usman Wajid Portfolio Main View',
-        src: '/P3-1.png'
+        src: '/P3-1.webp'
       },
       gallery: [
         {
           alt: 'Skill Set Section',
-          src: '/P3-2.png' 
+          src: '/P3-2.webp' 
         },
         {
           alt: 'Backend & Performance Optimization mobile view',
-          src: '/P3-3.png' 
+          src: '/P3-3.webp' 
         }
       ],
     },
@@ -201,10 +201,10 @@ const Project = () => {
                     {/* Two images */}
                     <div className="grid md:grid-cols-2 gap-8">
                         <div className="aspect-square rounded-2xl overflow-hidden">
-                           <img className="w-full h-full object-cover" alt={project.images.gallery[0].alt} src={project.images.gallery[0].src || project.images.gallery[0].key} />
+                           <img className="w-full h-full object-cover" alt={project.images.gallery[0].alt} src={project.images.gallery[0].src || project.images.gallery[0].key}loading='lazy' />
                         </div>
                         <div className="aspect-square rounded-2xl overflow-hidden">
-                            <img className="w-full h-full object-cover" alt={project.images.gallery[1].alt} src={project.images.gallery[1].src || project.images.gallery[1].key} />
+                            <img className="w-full h-full object-cover" alt={project.images.gallery[1].alt} src={project.images.gallery[1].src || project.images.gallery[1].key}loading='lazy' />
                         </div>
                     </div>
                 </div>
