@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Creative Agency - Transform Your Brand</title>
+        <title>NovaStack | Engineering the Future of Digital Growth</title>
         <meta name="description" content="Award-winning marketing agency specializing in digital marketing, brand strategy, and creative solutions that drive results." />
       </Helmet>
       <Hero />
