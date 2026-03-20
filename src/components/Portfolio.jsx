@@ -46,7 +46,7 @@ const Portfolio = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="group relative aspect-[4/3] rounded-2xl overflow-hidden cursor-pointer" onClick={() => handleProjectClick('social-media-app')}>
-          <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="A sleek MacBook Pro resting on a wooden desk, displaying the dark-themed Lahori VIP Burger website homepage. The screen shows a large appetizing burger with bold yellow text saying 'HUNGRY? WE GOT YOU!'. A coffee mug is partially visible in the warmly lit background." src="https://i.postimg.cc/zXqHwQft/Resturantwebapp.jpg" />
+          <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="A sleek MacBook Pro resting on a wooden desk, displaying the dark-themed Lahori VIP Burger website homepage. The screen shows a large appetizing burger with bold yellow text saying 'HUNGRY? WE GOT YOU!'. A coffee mug is partially visible in the warmly lit background." src="/Resturantwebapp.webp" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
             <div className="absolute bottom-0 left-0 p-6 w-full transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
               <div className="flex justify-between items-end">
@@ -61,7 +61,7 @@ const Portfolio = () => {
           </div>
 
           <div className="group relative aspect-[4/3] rounded-2xl overflow-hidden cursor-pointer" onClick={() => handleProjectClick('fintech-dashboard')}>
-            <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Dark theme portfolio website of Hammad Khalil shown on a MacBook Pro screen" src="https://i.postimg.cc/JhpH2zH8/personalbranding.jpg" />
+            <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Dark theme portfolio website of Hammad Khalil shown on a MacBook Pro screen" src="/personalbranding.webp" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
             <div className="absolute bottom-0 left-0 p-6 w-full transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
               <div className="flex justify-between items-end">
@@ -76,7 +76,7 @@ const Portfolio = () => {
           </div>
 
           <div className="group relative aspect-[4/3] rounded-2xl overflow-hidden cursor-pointer" onClick={() => handleProjectClick('digital-marketing-agency-site')}>
-            <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Modern MacBook Pro mockup displaying Usman Wajid's professional web developer portfolio website with a dark theme and minimalist UI design." src="https://i.postimg.cc/7ZxckqZ3/usmanwajid.jpg" />
+            <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Modern MacBook Pro mockup displaying Usman Wajid's professional web developer portfolio website with a dark theme and minimalist UI design." src="/usmanwajid.webp" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
             <div className="absolute bottom-0 left-0 p-6 w-full transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
               <div className="flex justify-between items-end">
