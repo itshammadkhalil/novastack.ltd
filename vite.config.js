@@ -301,24 +301,16 @@ export default defineConfig({
             '@': path.resolve(__dirname, './src'),
         },
     },
-    build: {
-        outDir: 'dist',
-        assetsDir: 'assets',
-        sourcemap: false,
-        minify: 'terser',
-        rollupOptions: {
-            external: [
-                '@babel/parser',
-                '@babel/traverse',
-                '@babel/generator',
-                '@babel/types'
-            ],
-            output: {
-                
-                entryFileNames: `assets/[name]-[hash].js`,
-                chunkFileNames: `assets/[name]-[hash].js`,
-                assetFileNames: `assets/[name]-[hash].[ext]`,
-            }
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    emptyOutDir: true, 
+    rollupOptions: {
+        output: {
+            entryFileNames: `assets/[name].js`,
+            chunkFileNames: `assets/[name].js`,
+            assetFileNames: `assets/[name].[ext]`,
         }
     }
+}
 });
