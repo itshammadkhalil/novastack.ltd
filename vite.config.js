@@ -280,7 +280,7 @@ logger.error = (msg, options) => {
 }
 
 export default defineConfig({
-    base: '/', 
+    base: '/',
     customLogger: logger,
     plugins: [
         ...(isDev ? [inlineEditPlugin(), editModeDevPlugin(), selectionModePlugin(), iframeRouteRestorationPlugin(), pocketbaseAuthPlugin()] : []),
@@ -296,21 +296,22 @@ export default defineConfig({
         allowedHosts: true,
     },
     resolve: {
-        extensions: ['.jsx', '.js', '.tsx', '.ts', '.json', ],
+        extensions: ['.jsx', '.js', '.tsx', '.ts', '.json'],
         alias: {
             '@': path.resolve(__dirname, './src'),
         },
     },
-  build: {
-    outDir: 'dist',
-    assetsDir: 'assets',
-    emptyOutDir: true, 
-    rollupOptions: {
-        output: {
-            entryFileNames: `assets/[name].js`,
-            chunkFileNames: `assets/[name].js`,
-            assetFileNames: `assets/[name].[ext]`,
+    build: {
+        outDir: 'dist',
+        emptyOutDir: true,
+        sourcemap: false,
+        rollupOptions: {
+            output: {
+                
+                entryFileNames: `assets/[name].js`,
+                chunkFileNames: `assets/[name].js`,
+                assetFileNames: `assets/[name].[ext]`,
+            }
         }
     }
-}
 });
